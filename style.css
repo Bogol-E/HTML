@@ -1,0 +1,147 @@
+*{
+    font-family: "맑은 고딕";
+    margin: 0px;
+    
+} 
+/* 전체 설정 */
+
+header {
+    background-color: red;
+    text-align: center;
+    /* 글자정렬 */
+    color: gold; 
+    margin: 0px;
+    /* 바깥여백 */
+    padding: 10px;
+    /* 안쪽여백 */
+    height: 267px;
+}
+
+header h1 {
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+header p {
+    font-size: 2em;
+    padding-left: 50px;
+}
+nav {
+    margin: 0px;
+    padding: 10px;
+    padding-bottom: 0px;
+    background-color:gold;
+    text-align: center;
+    line-height: 0.1em; /*글을 중심으로 줄간격 조절*/
+    height: auto;
+}
+
+/* a:link, a:visited {
+    color: green;
+}
+a:hover {
+    color: red;
+} */
+
+a:link {
+    color: red;
+    text-decoration: none;
+}
+a:visited {
+    color: red;
+}
+a:hover {
+    color: blue;
+    font-weight: bolder;    
+}
+a:active {
+    color: rgb(181, 181, 212);
+    font-weight: bolder;
+}
+
+a {
+    /* background-color: gold; */
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 5px;
+    line-height: 0.5em; /*글을 중심으로 줄간격 조절*/
+}
+
+section{
+    margin: -3px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    line-height: 35px;
+
+    display: inline-block;
+	width: 100%;
+	height: auto;
+	text-align: left;
+    box-sizing: border-box;
+}
+
+.c1,.c2,.c3,.c4{
+    padding-left: 10px;
+    border-style: solid;
+    border-width: 0px 0px 0px 10px;
+    /* 시계방향, 쉼표구분하지말고 돌리자 */
+    border-color: gold;
+    width: 300px;
+}
+
+.c2{
+    border-color: red;
+}
+
+.c3{
+    border-color: blue;
+}
+
+.c4{
+    border-color: white;
+}
+
+
+ol {
+    list-style-type: none;
+
+}
+
+ul {
+    list-style-type: disc;
+    list-style-position: inside;
+
+}
+
+p {
+    padding-left: 30px;
+}
+
+div{
+    float: left;
+}
+
+nav{
+    clear: both;
+}
+/* section{
+    float: left;
+} */
+footer{
+    background-color: red;
+    text-align: center;
+    /* 글자정렬 */
+    color: gold; 
+    margin: 0px;
+    /* 바깥여백 */
+    padding: 5px;
+    /* 안쪽여백 */
+    clear: both;
+    height: 50px;
+}

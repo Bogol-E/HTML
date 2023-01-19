@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>자기소개</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+            <!--외부 스타일 시트 연결-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+            .teble1 {
+                width: 800px;
+            }
+            table{
+            width: 100%;
+            border: solid 1px black;
+            border-collapse: collapse; /*중복되는 표와 셀의 테두리를 한줄로*/
+        }
+        td, th {
+            border: solid 1px grey;
+            padding: 10px;
+            font-size: 0.8em;
+            text-align: center;
+        }
+        thead{
+            background-color: rgb(205, 205, 205);
+        }
+        caption{
+            padding-bottom: 20px;
+            
+        }
+        </style>
+
+    </head>
+    <body>
+        <!--사진영역-->
+        <!--제목영역-->      
+        <header>
+            <div>       
+                <img src="img/jang.jpg" width="200">
+            </div>
+            <div>
+                <h1>Jang Shi Ha</h1>
+                <p>장시하</p>
+            </div>
+        </header>
+                
+        
+        <!--메뉴영역-->
+        <!--네비게이션여역영역-->
+        <nav>
+            <a href="#s1">[개인정보]</a>
+            <a href="#s2">[학력사항]</a>
+            <a href="#s3">[자격사항]</a>
+            <a href="#s4">[자기소개]</a>
+            <a href="servey.html">[설문조사]</a>
+        </nav>
+
+        <!--개인정보 내용 영역-->
+        <section id="s1">
+              
+         
+            <div>        
+                <h1 class="c1">개인정보</h1>
+                <ol>
+                    <li><span class="material-icons">
+                        account_circle
+                        </span> 본인성명:장시하</li>
+                    <li><span class="material-icons">
+                        call
+                        </span> 연락처:010-6216-0927</li>
+                    <li><span class="material-icons">
+                        mail
+                        </span> E-mail:pdsz98@gmail.com</li>
+                    <li><span class="material-icons">
+                        home
+                        </span> 주소:부산 동래구 사직동 롯데캐슬</li>
+                </ol>
+            </div>
+        </section>
+        
+           <!--학력사항 내용 영역-->
+        <section id="s2">
+            <div><h1 class="c2">학력사항</h1>
+                <!-- <ul>
+                    <li>2004~2010 성균관대학교 기계공학부 졸업</li>
+                    <li>2001~2003 남일 고등학교 졸업</li>
+                    <li>광안중학교 졸업</li>
+                    <li>배산초등학교 졸업</li>
+                </ul> -->
+                <div  class="teble1">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>
+                                    /
+                                </th>
+                                <th>
+                                    기간
+                                </th>
+                                <th>
+                                    학교
+                                </th>
+                                <th>
+                                    졸업여부
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    1
+                                </td>
+                                    
+                                <td>
+                                    2004~2010
+                                </td>
+                            
+                                <td>
+                                    성균관대학교
+                                </td>
+                                <td>
+                                    졸업
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    1
+                                </td>
+                                    
+                                <td>
+                                    2001~2003
+                                </td>
+                            
+                                <td>
+                                    남일고등학교
+                                </td>
+                                <td>
+                                    졸업
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    1
+                                </td>
+                                    
+                                <td>
+                                    1998~2000
+                                </td>
+                            
+                                <td>
+                                    광안중학교
+                                </td>
+                                <td>
+                                    졸업
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    1
+                                </td>
+                                    
+                                <td>
+                                    1992~1997
+                                </td>
+                            
+                                <td>
+                                    배산초등학교
+                                </td>
+                                <td>
+                                    졸업
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+            </div>
+        </section>
+
+           <!--자격사항 내용 영역-->
+        <section id="s3">
+            <div><h1 class="c3">자격사항</h1>
+                <ul>
+                    <li>낚시 신동</li>
+                    <li>딸기 좋아함</li>
+                    <li>몽실 뒷다리</li>
+                </ul>
+            </div>
+        </section>
+
+           <!--자기소개 내용 영역-->
+        <section id="s4">
+            <div><h1 class="c4">자기소개</h1>
+                <p>안녕하세요 과일이 좋아요<br>
+                배고파요~~~
+            </p>
+            </div>
+        </section>
+
+         <!--꼬리말 영역-->          
+         <footer>
+            <p>&copy &nbsp; JANGSH &nbsp;&nbsp;AI 활용 빅데이터분석 풀스텍서비스  SW 개발자 양성과정</p>
+         </footer>
+        
+    </body>
+</html>
